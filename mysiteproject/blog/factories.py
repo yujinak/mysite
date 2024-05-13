@@ -4,7 +4,7 @@ from faker import Factory as FakerFactory
 from django.contrib.auth.models import User
 from django.utils.timezone import now
 
-from blog.models import Post
+from mysiteproject.blog.models import Post
 
 faker = FakerFactory.create()
 
